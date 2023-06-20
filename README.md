@@ -1,4 +1,6 @@
 # Training class pokemon app
 
-This webapp was built during a live training session with the intent of teaching students new to web development the basics of HTML, CSS, and JS.
+
+This webapp was built while I was an instructor during a live training session.
+The intent was teaching entry-level students the basics of HTML, CSS, and JS.
 
