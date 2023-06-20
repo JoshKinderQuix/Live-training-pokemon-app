@@ -1,0 +1,47 @@
+/*importing a google font*/
+@import url("http://fonts.googleapis.com/css?family=Poiret+One");
+
+body {
+  background-image: url(pokemon_bg.png);
+  background-size: cover;
+  font-family: "Poiret One", cursive;
+  font-weight: bold;
+  color: #FFF;
+}
+.container {
+  position: relative;
+  width: 800px;
+  min-height: 300px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  margin: auto;
+  margin-top: 5%;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 15px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+}
+.clock{
+  margin-left: 15px;
+}
+.view-list{
+  list-style-type: none;
+}
+.view-list li:nth-child(3){
+  text-indent: 3px;
+}
+.view-list li:nth-child(5){
+  font-family: "Comic Sans", "Comic Sans MS", cursive;
+}
+.view-list li:nth-child(17){
+  margin-top: 19px;
+}
+.view-list li:nth-child(39){
+  color:light-blue;
+}
+.view-list li:nth-child(122){
+  text-decoration: underline;
+}
+.view-list li:nth-child(151){
+  margin-left:150px;
+}

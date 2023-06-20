@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Training class pokemon app</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- Anything outside of "<body>" is not required on Codepen.io
+
+<!DOCTYPE HTML>
+<html>
+-->
+
+<head>
+
+  <title>
+    Do You Know Your Pokemon?
+  </title>
+</head>
+
+<body>
+  <div id="container" class="container">
+    <div id="banner" class="banner">
+      <span> <img height="48px" width="48px" style="display: inline-block;" src="https://c.tenor.com/1q6jBuNi1MUAAAAi/pokemon-pikachu.gif" alt="copyright-safe pikachu" /> </span>
+      <h1 style="display: inline-block; margin-left: 15px; margin-top: -15px;">How well do you know your Pokemon?</h1>
+      <div>Once you begin, you have 2 mintues to name as many of the first 151 pokemon as you can. Good luck!</div>
+      <br />
+      <div><button id="begin-button">Go!</button><span id="clock" class="clock">0 min 0 sec</span></div>
+    </div>
+    <div id="view" class="view">
+      <br />
+      <div id="count" class="count">Count: 0</div>
+      <ul id="view-list" class="view-list">
+      </ul>
+    </div>
+    <div id="submission-form" class="form">
+      <!-- so because I took away the action from this form, I'm going to target this form from the submit button -->
+        <input type="text" disabled id="form-name-input" class="form-name-input" />
+        <input type="button" value="Submit" disabled id="form-name-submit">
+    </div>
+  </div>
+</body>
+<!--
+</html>
+-->
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
