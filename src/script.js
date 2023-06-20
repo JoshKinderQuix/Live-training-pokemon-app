@@ -1,4 +1,5 @@
-/* Bugs
+//! ToDo ----------------
+/*
 -Currently set to 12s timer for testing. Set countdown = 120000 (120k) instead of 12000 (12k) in timerStart() function for 2 min
 -Refine CSS/ add high score count if not too much
 -clean up code
@@ -9,9 +10,9 @@
 //Wrap in try/catch as good practice
 try {
   (function () {
-    //invoke all the variables we need at the top. More can be added as you go. Let's start with the actual Pokemon list, in an array
-    // this is the oldest of the old ways to create an array, so we're just gonna copypaste that in chat lol
-    //when creating variables, explain document.getElementById, and we'll explain queryselectors later so they have frame of reference for both
+    // invoke all the variables we need at the top. More can be added as you go. Let's start with the actual Pokemon list, in an array
+    // this is the oldest of the old ways to create an array, so we're just gonna copypaste that in chat 
+    // when creating variables, explain document.getElementById, and we'll explain queryselectors later so they have frame of reference for both
 
     //Global Variables
     const theOGPokemon = [
@@ -165,7 +166,7 @@ try {
       "dragonair",
       "dragonite",
       "mewtwo",
-      "mew"
+      "mew",
     ];
     let entryList = [];
     let missingList = theOGPokemon;
@@ -194,7 +195,7 @@ try {
     function timerStart() {
       //ensure countdown is reset when start button is clicked. Based in milliseconds (ms).
       console.log("click");
-      countdown = 12000;
+      countdown = 120000;
       nameInput = document.querySelector("#form-name-input");
 
       //disable start button while timer runs, otherwise, user could start setInterval more than once, running the code more than once per second
